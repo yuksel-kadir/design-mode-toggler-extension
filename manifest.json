@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Design Mode Toggler",
-  "version": "1.2",
+  "version": "1",
   "description": "Visually toggles document.designMode with a state-aware button.",
   "permissions": [
     "scripting",
