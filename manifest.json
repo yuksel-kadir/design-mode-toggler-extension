@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Design Mode Toggler",
+  "version": "1.2",
+  "description": "Visually toggles document.designMode with a state-aware button.",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs"
+  ],
+  "action": {
+    "default_title": "Turn Design Mode On",
+    "default_icon": {
+      "16": "images/icon-off-16.png",
+      "48": "images/icon-off-48.png",
+      "128": "images/icon-off-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/icon-off-16.png",
+    "48": "images/icon-off-48.png",
+    "128": "images/icon-off-128.png"
+  }
+}
